@@ -5,10 +5,7 @@ account: yettas
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5414298
-bundleId: 5450481
+bundleId: 5456373
 url: https://yettas.shinyapps.io/shinyres/
-when: 1641777983.57097
-lastSyncTime: 1641777983.57097
-asMultiple: FALSE
-asStatic: FALSE
-ignoredFiles: site.map.jpg|site.map.png
+when: 1641915311.74753
+lastSyncTime: 1641915311.74753

@@ -22,7 +22,7 @@ server = function(input, output) {
       req(input$pick.id, input$date.range)
       Data <- Monthly.long.dt %>%
 		  filter(id==input$pick.id & between(date, input$date.range[1], input$date.range[2])) %>%
-		  mutate(across(is.numeric, round, digits=3))
+		  mutate(across(where(is.numeric), round, digits=3))
 	  return(Data)
   })
   
